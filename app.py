@@ -59,4 +59,10 @@ student_dropout_app = gr.Interface(
     title =" Student Dropout Risk Prediction",
     description= "predict whether a student has High or Low dropout risk"
 )
-student_dropout_app.launch()
+import os
+port =int(os.environ.get("PORT",7860))
+student_dropout_app.launch(
+    server_name. ="0.0.0.0",
+    server_port=port,
+    share = False
+)
