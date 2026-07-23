@@ -1,0 +1,2 @@
+Dataset Path: "/Users/mac/Downloads/student.csv"
+Colab Link: "https://colab.research.google.com/drive/1v3Jm6vsGqbLpoIL9TH1Abw-Iiyse_7yK?usp=sharing"
